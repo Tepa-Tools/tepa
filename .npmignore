@@ -4,6 +4,9 @@ pyproject.toml
 __pycache__/
 *.pyc
 .venv/
+.venv-cli/
+.venv312/
 dist/
 build/
 *.egg-info/
+*.log

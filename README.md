@@ -1,9 +1,13 @@
-# tepa
+# Tepa
 
-Tepa is under active development. The project is currently being prepared for its first public release.
+Tepa is a local-first AI engineering CLI for SDLC support, maintenance, benchmarking, and controlled automation.
+
+The project is under active development and is being prepared for its first full public release.
+
+## Package Status
+
+The npm scope `@tepa-tools/tepa` is currently reserved for future JavaScript tooling or installer support. The main Tepa CLI is planned for Python distribution through PyPI.
 
 ## License
 
-Copyright (c) 2026 Juan Navarro. All rights reserved.
-
-This package is currently distributed as a private/proprietary early release while the project is being prepared for public open-source release.
+Apache License 2.0.

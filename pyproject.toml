@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tepa"
-version = "0.1.0"
+version = "0.1.3"
 description = "Offline-first AI DevOps CLI for running, observing, and benchmarking SDLC workflows without cloud dependency."
 readme = "README.md"
 requires-python = ">=3.9"
@@ -38,8 +38,8 @@ dependencies = []
 
 [project.urls]
 Homepage = "https://tepa.tools"
-Repository = "https://github.com/TepaTools/tepa"
-Issues = "https://github.com/TepaTools/tepa/issues"
+Repository = "https://github.com/Tepa-Tools/tepa"
+Issues = "https://github.com/Tepa-Tools/tepa/issues"
 
 [project.scripts]
 tepa = "tepa.cli:main"

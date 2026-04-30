@@ -1,0 +1,26 @@
+{
+  "name": "@tepa-tools/tepa",
+  "version": "0.1.0",
+  "description": "Local-first AI engineering tools for SDLC support, maintenance, benchmarking, and controlled automation.",
+  "license": "Apache-2.0",
+  "homepage": "https://tepa.tools",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tepa-tools/tepa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tepa-tools/tepa/issues"
+  },
+  "keywords": [
+    "ai",
+    "cli",
+    "local-ai",
+    "devops",
+    "sdlc",
+    "benchmarking",
+    "automation"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

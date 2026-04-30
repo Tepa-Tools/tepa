@@ -1,13 +1,15 @@
 # Tepa
 
-Tepa is a local-first AI engineering CLI for SDLC support, maintenance, benchmarking, and controlled automation.
+Tepa is an offline-first AI DevOps CLI for running, observing, and benchmarking SDLC workflows without cloud dependency.
 
-The project is under active development and is being prepared for its first full public release.
+Tepa is designed for local-first engineering workflows, including offline and air-gapped environments where reproducibility, visibility, and controlled automation matter.
 
-## Package Status
+## Status
 
-The npm scope `@tepa-tools/tepa` is currently reserved for future JavaScript tooling or installer support. The main Tepa CLI is planned for Python distribution through PyPI.
+Tepa is under active development and preparing for its first public release series. APIs and command behavior may change before v1.0.
 
-## License
+## Install
 
-Apache License 2.0.
+```bash
+pip install tepa
+```

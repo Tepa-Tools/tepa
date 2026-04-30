@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tepa"
+version = "0.1.0"
+description = "Local-first AI engineering tools for SDLC support, maintenance, benchmarking, and controlled automation."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "Proprietary" }
+authors = [
+  { name = "Juan", email = "your-email@example.com" }
+]
+keywords = [
+  "ai",
+  "cli",
+  "local-ai",
+  "devops",
+  "sdlc",
+  "benchmarking",
+  "automation"
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "License :: Other/Proprietary License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Software Development",
+  "Topic :: System :: Systems Administration"
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://tepa.tools"
+Repository = "https://github.com/TepaTools/tepa"
+Issues = "https://github.com/TepaTools/tepa/issues"
+
+[project.scripts]
+tepa = "tepa.cli:main"
+
+[tool.setuptools]
+license-files = ["LICENSE"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["tepa*"]
